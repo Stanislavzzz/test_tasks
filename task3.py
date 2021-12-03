@@ -1,7 +1,7 @@
 #Делаем 1000 Get запросов к сайту и отображаем прогресс-бар
+# Не делал никаких доп проверок, так как не было этого в условии :-)
 
 import requests
-import time
 from tqdm import tqdm
 
 def site_res(url_site):
